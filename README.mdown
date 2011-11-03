@@ -1,0 +1,6 @@
+Calculator App
+==
+
+This is the Calculator Objective-C app from the Stanford University
+iTunesU course.
+
