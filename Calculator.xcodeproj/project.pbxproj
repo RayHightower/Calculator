@@ -22,6 +22,8 @@
 		6FD07ACF146263FE00EB9B7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FD07ACD146263FE00EB9B7C /* InfoPlist.strings */; };
 		6FD07AD2146263FE00EB9B7C /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD07AD1146263FE00EB9B7C /* CalculatorTests.m */; };
 		6FD07B2D1462666500EB9B7C /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD07B2C1462666500EB9B7C /* CalculatorBrain.m */; };
+		6FD07B2F14626C0F00EB9B7C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD07B2E14626C0F00EB9B7C /* MainWindow.xib */; };
+		6FD07B3014626C0F00EB9B7C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD07B2E14626C0F00EB9B7C /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,7 @@
 		6FD07AD1146263FE00EB9B7C /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
 		6FD07B2B1462666500EB9B7C /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
 		6FD07B2C1462666500EB9B7C /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		6FD07B2E14626C0F00EB9B7C /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 		6FD07A94146263FD00EB9B7C = {
 			isa = PBXGroup;
 			children = (
+				6FD07B2E14626C0F00EB9B7C /* MainWindow.xib */,
 				6FD07AA9146263FE00EB9B7C /* Calculator */,
 				6FD07ACA146263FE00EB9B7C /* CalculatorTests */,
 				6FD07AA2146263FE00EB9B7C /* Frameworks */,
@@ -233,6 +237,7 @@
 				6FD07AAE146263FE00EB9B7C /* InfoPlist.strings in Resources */,
 				6FD07AB7146263FE00EB9B7C /* MainStoryboard_iPhone.storyboard in Resources */,
 				6FD07ABA146263FE00EB9B7C /* MainStoryboard_iPad.storyboard in Resources */,
+				6FD07B2F14626C0F00EB9B7C /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FD07ACF146263FE00EB9B7C /* InfoPlist.strings in Resources */,
+				6FD07B3014626C0F00EB9B7C /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
