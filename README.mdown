@@ -4,3 +4,8 @@ Calculator App
 This is the Calculator Objective-C app from the Stanford University
 iTunesU course.
 
+Note: Since the Stanford course is tied to an earlier version of XCode,
+I found video by [fishyy.com](http://fishyy.com) to be useful.
+Especially this one: http://www.youtube.com/watch?v=sROdA4w4x9Y
+
+
