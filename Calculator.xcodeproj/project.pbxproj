@@ -59,7 +59,7 @@
 		6FD07AD1146263FE00EB9B7C /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
 		6FD07B2B1462666500EB9B7C /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
 		6FD07B2C1462666500EB9B7C /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
-		6FD07B2E14626C0F00EB9B7C /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		6FD07B2E14626C0F00EB9B7C /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,6 @@
 		6FD07A94146263FD00EB9B7C = {
 			isa = PBXGroup;
 			children = (
-				6FD07B2E14626C0F00EB9B7C /* MainWindow.xib */,
 				6FD07AA9146263FE00EB9B7C /* Calculator */,
 				6FD07ACA146263FE00EB9B7C /* CalculatorTests */,
 				6FD07AA2146263FE00EB9B7C /* Frameworks */,
@@ -136,6 +135,7 @@
 		6FD07AAA146263FE00EB9B7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6FD07B2E14626C0F00EB9B7C /* MainWindow.xib */,
 				6FD07AAB146263FE00EB9B7C /* Calculator-Info.plist */,
 				6FD07AAC146263FE00EB9B7C /* InfoPlist.strings */,
 				6FD07AAF146263FE00EB9B7C /* main.m */,
