@@ -34,35 +34,33 @@
 				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
-			<object class="IBUICustomObject" id="88681842">
+			<object class="IBUICustomObject" id="128782250">
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
-			<object class="IBUIWindow" id="928419528">
+			<object class="IBUIWindow" id="578658144">
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUINavigationBar" id="625663436">
-						<reference key="NSNextResponder" ref="928419528"/>
+					<object class="IBUINavigationBar" id="238293637">
+						<reference key="NSNextResponder" ref="578658144"/>
 						<int key="NSvFlags">290</int>
 						<string key="NSFrame">{{0, 20}, {320, 44}}</string>
-						<reference key="NSSuperview" ref="928419528"/>
-						<reference key="NSWindow"/>
+						<reference key="NSSuperview" ref="578658144"/>
 						<string key="NSReuseIdentifierKey">_NS:260</string>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<array key="IBUIItems">
-							<object class="IBUINavigationItem" id="268068909">
-								<reference key="IBUINavigationBar" ref="625663436"/>
+							<object class="IBUINavigationItem" id="580063652">
+								<reference key="IBUINavigationBar" ref="238293637"/>
 								<string key="IBUITitle">ChicagoRuby Rocks</string>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							</object>
 						</array>
 					</object>
-					<object class="IBUIButton" id="370639171">
-						<reference key="NSNextResponder" ref="928419528"/>
+					<object class="IBUIButton" id="94218381">
+						<reference key="NSNextResponder" ref="578658144"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{86, 196}, {148, 87}}</string>
-						<reference key="NSSuperview" ref="928419528"/>
-						<reference key="NSWindow"/>
+						<reference key="NSSuperview" ref="578658144"/>
 						<string key="NSReuseIdentifierKey">_NS:225</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -95,7 +93,6 @@
 				</array>
 				<string key="NSFrameSize">{320, 480}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView"/>
 				<string key="NSReuseIdentifierKey">_NS:180</string>
 				<object class="NSColor" key="IBUIBackgroundColor">
@@ -115,15 +112,15 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
 						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="88681842"/>
+						<reference key="destination" ref="128782250"/>
 					</object>
 					<int key="connectionID">10</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">window</string>
-						<reference key="source" ref="88681842"/>
-						<reference key="destination" ref="928419528"/>
+						<reference key="source" ref="128782250"/>
+						<reference key="destination" ref="578658144"/>
 					</object>
 					<int key="connectionID">11</int>
 				</object>
@@ -149,36 +146,36 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">6</int>
-						<reference key="object" ref="88681842"/>
+						<reference key="object" ref="128782250"/>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">Calculator App Delegate</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
-						<reference key="object" ref="928419528"/>
+						<reference key="object" ref="578658144"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="625663436"/>
-							<reference ref="370639171"/>
+							<reference ref="238293637"/>
+							<reference ref="94218381"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">12</int>
-						<reference key="object" ref="625663436"/>
+						<reference key="object" ref="238293637"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="268068909"/>
+							<reference ref="580063652"/>
 						</array>
-						<reference key="parent" ref="928419528"/>
+						<reference key="parent" ref="578658144"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">13</int>
-						<reference key="object" ref="268068909"/>
-						<reference key="parent" ref="625663436"/>
+						<reference key="object" ref="580063652"/>
+						<reference key="parent" ref="238293637"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">16</int>
-						<reference key="object" ref="370639171"/>
-						<reference key="parent" ref="928419528"/>
+						<reference key="object" ref="94218381"/>
+						<reference key="parent" ref="578658144"/>
 					</object>
 				</array>
 			</object>
@@ -200,29 +197,7 @@
 			<nil key="sourceID"/>
 			<int key="maxID">16</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">AppDelegate</string>
-					<string key="superclassName">UIResponder</string>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">window</string>
-						<string key="NS.object.0">UIWindow</string>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">window</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">window</string>
-							<string key="candidateClassName">UIWindow</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/AppDelegate.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
